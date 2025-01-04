@@ -17,10 +17,17 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.arley.messagesoffline"
     },
     "web": {
       "bundler": "metro",
